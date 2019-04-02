@@ -2,7 +2,7 @@
 main(){
   int a,b,c,c1;
   printf("Enter two nums:");
-  scanf("%d %d",a,b);
+  scanf("%d %d",&a,&b);
   c=add(a,b);
   printf("Sum = %d",c);
   c1=add2nos(a,b,&c);
